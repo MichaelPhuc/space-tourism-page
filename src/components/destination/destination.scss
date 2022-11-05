@@ -8,20 +8,25 @@
     width: 100%;
     height: 969px;
     color: white;
-    flex: 0.5;
-    overflow: hidden;
   
     
     .left{
-  
+        flex: 0.5;
+        overflow: hidden;
 
         h5,span{
                 font-family: 'Barlow Condensed', sans-serif;
                 font-weight: 400;
                 font-size: $h5-size;
                 letter-spacing: $h5-spacing;
+               
             }
-
+        h5{
+            position: absolute;
+            margin-top: 212px;
+            margin-left: 175px;
+            
+        }
         span{
             font-weight: 700;
             mix-blend-mode: normal;
@@ -30,7 +35,7 @@
 
         .moon{
             position: absolute;
-            margin-top: 227px;
+            margin-top: 343px;
             margin-left: 230px;
         }
     }
@@ -40,6 +45,10 @@
         position: relative;
         float: right;
         width: 500px;
+
+        .destination-text{
+            
+        }
     }
 }
 

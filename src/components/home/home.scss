@@ -23,16 +23,19 @@
             height: 274px;
             width: 274px;
             float: right;
-            margin: 495px 165px 0px 0px;
+            margin-top: 495px;
+            margin-right: 165px;
             cursor: pointer;
         }
 
         .explore:hover{
-            box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.07);
+            box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.07);
           
         }
         .home-text{
-            margin: 387px 0px 0px 165px;
+            margin-top: 387px;
+            margin-left: 165px;
+            margin-bottom: 131px;
 
             h5{
                 font-family: 'Barlow Condensed', sans-serif;
