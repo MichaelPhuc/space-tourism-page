@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+
+.navbar{
+    
+    
+    .logo{  
+        position: absolute; 
+        left: 55px;
+        top: 64px;
+        
+    }
+  
+    .nav-rectangle{
+        position: absolute;
+        width: 830px;
+        height: 96px;
+        right: 0px;
+        top: 40px;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(40.7742px);
+
+        .testing{
+
+            padding: 38px 38px 38px 86px;
+
+            .nav-text{
+            
+                font-size: $nav-size;
+                letter-spacing: $nav-spacing;
+                color: white;
+                text-decoration: none;
+                font-family: 'Barlow Condensed', sans-serif;
+                margin-left: 48px;
+                
+                span{
+                    font-weight: 700;
+                }
+
+            }
+            .nav-text:hover{
+                box-shadow: 0 3px 2px -2px #FFFFFF;
+            }
+
+            .active{
+                border-bottom: 3px #FFFFFF solid;  
+            }
+            
+        }
+        
+
+        .nav-line{
+            position: absolute; 
+            width: 473px;
+            height: 1px;
+            right: 820px;
+            top: 38px;
+            background: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.25;
+        }
+    }
+    
+}
