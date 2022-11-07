@@ -16,7 +16,7 @@
 
         .explore{
             background-color: #FFFFFF;
-            font-family: 'Bellefair';
+            font-family: 'Bellefair', serif;
             font-size: $h4-size;
             border-radius: 50%;
             border: 0px;
@@ -42,6 +42,7 @@
                 font-weight: 200;
                 font-size: $h5-size;
                 letter-spacing: $h5-spacing;
+                color: $color2;
             }
         
             .h1-text{
@@ -49,11 +50,12 @@
             }
         
             .body-text{
-                color: #FFFFFF;
-                width: 444px;
-                font-size: $body-size;
-                line-height: 32px;
+                color: $color2;
                 font-family: 'Barlow', sans-serif;
+                font-size: $body-size;
+                font-weight: 200;
+                line-height: 32px;
+                width: 444px;
             }
         }
     }

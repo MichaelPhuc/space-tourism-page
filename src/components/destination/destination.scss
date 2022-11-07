@@ -7,7 +7,7 @@
     background-size: cover;
     width: 100%;
     height: 969px;
-    color: white;
+    color: $color3;
   
     
     .left{
@@ -33,22 +33,65 @@
             opacity: 0.25;
         }
 
-        .moon{
-            position: absolute;
-            margin-top: 343px;
-            margin-left: 230px;
-        }
+      
     }
 
     .right{
         flex: 0.5;
-        position: relative;
-        float: right;
-        width: 500px;
 
-        .destination-text{
-            
+
+        h2{
+           
+            font-family: 'Bellefair', serif;
+            font-size: $h2-size;
+            font-weight: 400;
         }
+        
+        .destination-pic{
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            margin-left: 230px;
+            margin-bottom: 181px;
+        }
+
+
+        .body-text{
+            font-family: 'Barlow', sans-serif;
+            font-size: $body-size;
+            font-weight: 200;
+            line-height: 32px;
+            margin-top: -65px;
+            color: $color2;
+        }
+        .destination-line{
+            border: 1px solid #383B4B;
+            opacity: 40%;
+            margin-top: 50px;
+          
+        }
+        .sh2{
+            color: $color2;
+            font-size: $sh2-size;
+            letter-spacing: $sh2-spacing;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 200;
+            position: absolute;
+
+        }
+        .h4{
+            font-size: $h4-size;
+            font-family: 'Bellefair', serif;
+            position: absolute;
+           
+        }
+        .distance,.time{
+            margin-top: 25px;
+        }
+        .time{
+            margin-left: 225px;
+        }
+       
     }
 }
 

@@ -25,12 +25,11 @@
             padding: 38px 38px 38px 86px;
 
             .nav-text{
-            
+                font-family: 'Barlow Condensed', sans-serif;
                 font-size: $nav-size;
                 letter-spacing: $nav-spacing;
                 color: white;
                 text-decoration: none;
-                font-family: 'Barlow Condensed', sans-serif;
                 margin-left: 48px;
                 
                 span{
@@ -38,13 +37,26 @@
                 }
 
             }
+
             .nav-text:hover{
-                box-shadow: 0 3px 2px -2px #FFFFFF;
+                display: inline-block;
+                line-height: 1;
+                background-color: transparent; 
+                background: linear-gradient(#979797 0 0) center bottom / 100% 3px no-repeat;
+                background-size: 100% 3px;
+                padding-bottom: 38px;
             }
 
             .active{
-                border-bottom: 3px #FFFFFF solid;  
+                display: inline-block;
+                line-height: 1;
+                background-color: transparent; 
+                background: linear-gradient(#FFFFFF 0 0) center bottom / 100% 3px no-repeat;
+                background-size: 100% 3px;
+                padding-bottom: 38px;
+                pointer-events: none;
             }
+           
             
         }
         

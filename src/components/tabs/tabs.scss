@@ -1,0 +1,53 @@
+@import "../../global.scss";
+
+.tabs{
+  margin-top: 310px;
+  float: right;
+  margin-right: 330px;
+
+}
+
+
+.tab-list {
+  position: absolute;
+  padding-left: 0;
+        
+}
+
+.tab-list-item {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: $nav-size;
+  font-weight: 200;
+  letter-spacing: $nav-spacing;
+  display: inline-block;
+  list-style: none;
+  padding: 0.5rem 0.75rem;
+  color: #D0D6F9;
+}
+
+.tab-list-active {
+  font-weight: 400;
+  display: inline-block;
+  line-height: 1;
+  background-color: transparent; 
+  background: linear-gradient(#FFFFFF 0 0) center bottom / 100% 3px no-repeat;
+  background-size: 70% 3px;
+  padding-bottom: 15px;
+  pointer-events: none;
+  color: #FFFFFF;
+}
+
+.tab-list-item:hover {
+  display: inline-block;
+  line-height: 1;
+  background-color: transparent; 
+  background: linear-gradient(#979797 0 0) center bottom / 100% 3px no-repeat;
+  background-size: 70% 3px;
+  padding-bottom: 15px;
+
+ 
+}
+
+.tab-content{
+  inline-size: 443px; 
+}
