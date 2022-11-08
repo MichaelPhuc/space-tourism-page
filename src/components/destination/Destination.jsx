@@ -1,17 +1,13 @@
 import "./destination.scss"
 import Tabs from "../tabs/Tabs";
 
+
 export default function Destination() {
 
     return (
         <div className="destination">
             <div className="left">
-                <div>
                 <h5><span>01</span> PICK YOUR DESTINATION</h5>
-                </div>
-                
-                    
-                
             </div>
             <div className="right">
            

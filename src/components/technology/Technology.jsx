@@ -1,21 +1,37 @@
 import "./technology.scss"
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper";
 
 export default function Technology() {
 
     return (
-        <div className="technology">
-        1
-        2
-        3
-
-        The terminology...
-        Launch vehicle
-
-        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-        payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-        WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-        it's quite an awe-inspiring sight on the launch pad!
-         
+        <div className="crew">
+            
+            <div className="left">
+                <h5><span>02</span> MEET YOUR CREW</h5>
+                <Swiper
+                    pagination={{
+                    dynamicBullets: true,
+                    }}
+                    modules={[Pagination]}
+                    className="Swiper"
+                >
+                    <SwiperSlide>Slide 1</SwiperSlide>
+                    <SwiperSlide>Slide 2</SwiperSlide>
+                    <SwiperSlide>Slide 3</SwiperSlide>
+                    
+                </Swiper>
+               
+            </div>
+           
+            <div className="right">
+                
+            </div>
+       
         </div>
 
     )

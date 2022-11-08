@@ -1,1 +1,25 @@
 @import "../../global.scss";
+
+.Swiper{
+
+    margin: 200px;
+    .swiper-pagination {
+        right: 200px !important;
+    }
+    
+    .swiper-pagination-bullet{
+        //background-color: $color3 !important;
+
+        background-color: aqua;
+        width: 15px;
+        height: 15px;
+        
+        
+    }
+    .swiper-pagination-bullet-active{
+        //background-color: $color3 !important;
+        
+        opacity: 1;
+        
+    }
+}

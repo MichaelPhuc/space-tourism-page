@@ -6,8 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 969px;
+    height: 881px;
     color: $color3;
+    overflow: hidden;
   
     
     .left{
@@ -50,9 +51,10 @@
         .destination-pic{
             position: absolute;
             left: 0px;
-            bottom: 0px;
+            top: 0px;
             margin-left: 230px;
-            margin-bottom: 181px;
+            margin-top: 343px;
+            
         }
 
 
@@ -79,14 +81,14 @@
             position: absolute;
 
         }
-        .h4{
-            font-size: $h4-size;
-            font-family: 'Bellefair', serif;
-            position: absolute;
-           
-        }
         .distance,.time{
             margin-top: 25px;
+
+            .h4{
+                font-size: $h4-size;
+                font-family: 'Bellefair', serif;
+                position: absolute;
+            }
         }
         .time{
             margin-left: 225px;
