@@ -1,25 +1,59 @@
 @import "../../global.scss";
 
-.Swiper{
 
-    margin: 200px;
-    .swiper-pagination {
-        right: 200px !important;
-    }
+.technology{
+    background-image: url("../../../public/assets/technology/background-technology-desktop.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 881px;
+    color: $color3;
+    overflow: hidden;
+
+    .left{
+        flex: 0.5;
+       
+        h5,span{
+                font-family: 'Barlow Condensed', sans-serif;
+                font-weight: 400;
+                font-size: $h5-size;
+                letter-spacing: $h5-spacing;
+            }
+        h5{
+            
+            margin-top: 212px;
+            margin-bottom: -80px;
+            margin-left: 175px;
+            
+        }
+        span{
+            font-weight: 700;
+            mix-blend-mode: normal;
+            opacity: 0.25;
+        }
     
-    .swiper-pagination-bullet{
-        //background-color: $color3 !important;
-
-        background-color: aqua;
-        width: 15px;
-        height: 15px;
+        .Swiper{
+    
+            margin: 200px;
+            .swiper-pagination {
+                right: 200px !important;
+            }
+            
+            .swiper-pagination-bullet{
+                //background-color: $color3 !important;
         
-        
-    }
-    .swiper-pagination-bullet-active{
-        //background-color: $color3 !important;
-        
-        opacity: 1;
-        
+                background-color: aqua;
+                width: 15px;
+                height: 15px;
+                
+                
+            }
+            .swiper-pagination-bullet-active{
+                //background-color: $color3 !important;
+                
+                opacity: 1;
+                
+            }
+        }
     }
 }

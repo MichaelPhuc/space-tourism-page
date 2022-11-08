@@ -9,13 +9,14 @@ import { Pagination, Autoplay } from "swiper";
 export default function Technology() {
 
     return (
-        <div className="crew">
+        <div className="technology">
             
             <div className="left">
-                <h5><span>02</span> MEET YOUR CREW</h5>
+                <h5><span>03</span> SPACE LAUNCH 101</h5>
                 <Swiper
+                    direction={"vertical"}
                     pagination={{
-                    dynamicBullets: true,
+                        clickable: true,
                     }}
                     modules={[Pagination]}
                     className="Swiper"
