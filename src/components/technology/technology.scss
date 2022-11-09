@@ -37,7 +37,6 @@
             height: 80vh;
             
             .destination-text{
-            
                 margin-left: 325px;
                 margin-top: 225px;
                 
@@ -46,8 +45,7 @@
                     letter-spacing: $nav-spacing;
                     font-family: 'Barlow Condensed';
                     font-weight: 400;
-                    color: $color2;
-                    
+                    color: $color2;      
                     
                 }
                 h3{
@@ -87,8 +85,8 @@
                 margin-top: 33px;
                 opacity: 0.25;
                 border: 1px solid #FFFFFF;
-                
             }
+            
             .swiper-pagination-bullet-active{
                 background-color: $color3;
                 color: $color1;
@@ -97,9 +95,13 @@
             
             .destination-image{
                 position: absolute;
-                margin-left: 1400px;
+                margin-left: 1200px;
                 margin-top: 125px;
+                border-radius: 10px;
+                border: solid 1px $color3;
+                box-shadow: 3px 3px 10px white;
             }
+
         }
     
 

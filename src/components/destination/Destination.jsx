@@ -9,12 +9,8 @@ export default function Destination() {
             <div className="left">
                 <h5><span>01</span> PICK YOUR DESTINATION</h5>
             </div>
-            <div className="right">
-           
-      
-                
+            <div className="right"> 
                 <Tabs>
-             
                     <div label="MOON">
                         <h2>MOON</h2>
                         <img src="assets/destination/image-moon.png" alt="The Moon" className="destination-pic"/>
@@ -33,7 +29,6 @@ export default function Destination() {
                             <p className="h4">3 DAYS</p>
                         </div>                     
                     </div>
-
                     <div label="MARS">
                         <h2>MARS</h2>
                         <img src="assets/destination/image-mars.png" alt="Mars" className="destination-pic"/>
@@ -52,7 +47,6 @@ export default function Destination() {
                             <p className="h4">9 MONTHS</p>
                         </div>    
                     </div>
-
                     <div label="EUROPA">
                         <h2>EUROPA</h2>
                         <img src="assets/destination/image-europa.png" alt="Europa" className="destination-pic"/>
@@ -72,7 +66,6 @@ export default function Destination() {
                             <p className="h4">3 YEARS</p>
                         </div>            
                     </div>
-
                     <div label="TITAN">
                         <h2>TITAN</h2>
                         <div className="divtext">
@@ -93,10 +86,7 @@ export default function Destination() {
                             <p className="h4">7 YEARS</p>
                         </div>    
                     </div>
-                </Tabs>
-         
-                
-              
+                </Tabs>      
             </div>
         </div>
 

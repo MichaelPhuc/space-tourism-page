@@ -18,10 +18,8 @@ export default function Technology() {
     
     return (
         <div className="technology">
-            
             <div className="left">
                 <h5><span>03</span> SPACE LAUNCH 101</h5>
-               
                 <Swiper
                     effect={"fade"}
                     fadeEffect={{
@@ -31,12 +29,9 @@ export default function Technology() {
                     modules={[EffectFade, Pagination]}
                     className="Swiper"
                 >
-                  
                     <SwiperSlide>
                         <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="Launch Vehicle" className="destination-image"/>
-                        
                         <div className="destination-text">
-                        
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>LAUNCH VEHICLE</h3>
                             <p className="body-text">
@@ -46,29 +41,23 @@ export default function Technology() {
                             it's quite an awe-inspiring sight on the launch pad!
                             </p>
                         </div>
-                        
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="assets/technology/image-space-capsule-portrait.jpg" alt="Space Capsule" className="destination-image"/>
                         <div className="destination-text">
-                        
-                       
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>SPACEPORT</h3>
                             <p className="body-text">
                             A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
                             by analogy to the seaport for ships or airport for aircraft. Based in the 
                             famous Cape Canaveral, our spaceport is ideally situated to take advantage 
-                            of the Earth’s rotation for launch.
+                            of the Earth's rotation for launch.
                             </p>
-                        </div>
-                        
+                        </div>    
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="assets/technology/image-spaceport-portrait.jpg" alt="Spaceport" className="destination-image"/>
                         <div className="destination-text">
-
-                       
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>SPACE CAPSULE</h3>
                             <p className="body-text">
@@ -78,19 +67,9 @@ export default function Technology() {
                             and plenty of other activities to keep you entertained.
                             </p>
                         </div>
-                        
                     </SwiperSlide>
-                    
                 </Swiper>
-              
-                
-               
             </div>
-           
-            <div className="right">
-                
-            </div>
-       
         </div>
 
     )

@@ -10,8 +10,7 @@ import "./app.scss"
 
 function App() {
   
-  return (
-    
+  return ( 
     <div>
     <Topbar/>
       <Routes>
@@ -20,9 +19,6 @@ function App() {
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />
       </Routes>
-      
-        
-      
     </div>
   );
 }

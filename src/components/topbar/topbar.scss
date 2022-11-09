@@ -3,12 +3,10 @@
 
 .navbar{
     
-    
     .logo{  
         position: absolute; 
         left: 55px;
-        top: 64px;
-        
+        top: 64px;   
     }
   
     .nav-rectangle{
@@ -23,7 +21,6 @@
         .nav-padding{
             padding: 38px 38px 38px 86px;
             
-
             .nav-text{
                 font-family: 'Barlow Condensed', sans-serif;
                 font-size: $nav-size;
