@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 881px;
+    height: 969px;
     color: $color3;
     overflow: hidden;
     
@@ -33,20 +33,21 @@
 
 
         .mySwiper{
+            width: 300vh;
             
             .swiper-custom-pagination {
                 position: absolute;
                 margin-left: 165px;
-                margin-bottom: 90px;
+                margin-bottom: 150px;
             }
             .swiper-pagination-bullet{
-                background-color: $color3 !important;
+                background-color: $color3;
                 width: 15px;
                 height: 15px;
                 margin-left: 15px;   
             }
             .swiper-pagination-bullet-active{
-                background-color: $color3 !important;
+                background-color: $color3;
                 opacity: 1;
                 
             }
@@ -84,20 +85,20 @@
             }
             .crew-douglas{
                 margin-left: 1050px;
-                margin-top: 15px;   
+                margin-top: 105px;   
             }
             .crew-mark{
                 margin-left: 1100px;
-                margin-top: 77px;
+                margin-top: 164px;
                 
             }
             .crew-victor{
                 margin-left: 1025px;
-                margin-top: 70px;   
+                margin-top: 160px;   
             }
             .crew-anousheh{ 
                 margin-left: 1050px;
-                margin-top: 115px;     
+                margin-top: 200px;     
             }
         }
        

@@ -6,13 +6,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 881px;
+    height: 969px;
     color: $color3;
     overflow: hidden;
 
     .left{
         flex: 0.5;
-       
+      
+        
         h5,span{
                 font-family: 'Barlow Condensed', sans-serif;
                 font-weight: 400;
@@ -31,29 +32,76 @@
             mix-blend-mode: normal;
             opacity: 0.25;
         }
-    
+       
         .Swiper{
-    
-            margin: 200px;
+            height: 80vh;
+            
+            .destination-text{
+            
+                margin-left: 325px;
+                margin-top: 225px;
+                
+                .terminology{
+                    font-size: $nav-size;
+                    letter-spacing: $nav-spacing;
+                    font-family: 'Barlow Condensed';
+                    font-weight: 400;
+                    color: $color2;
+                    
+                    
+                }
+                h3{
+                    font-size: $h3-size;
+                    font-family: 'Bellefair', serif;
+                    font-weight: 200;
+                    margin-top: 0px;
+                    
+                }
+                .body-text{
+                    font-family: 'Barlow', sans-serif;
+                    font-size: $body-size;
+                    font-weight: 200;
+                    line-height: 32px;
+                    color: $color2;
+                    inline-size: 443px; 
+                    margin-top: -29px;
+                }
+           }
+            //Number inside pagination bullet
+            h4{
+                font-size: $h4-size;
+                font-family: 'Bellefair', serif;
+                font-weight: 700;
+                color: $color2;
+            }
+      
             .swiper-pagination {
-                right: 200px !important;
+               margin-bottom: 230px;
+               margin-left: 125px;
             }
             
             .swiper-pagination-bullet{
-                //background-color: $color3 !important;
-        
-                background-color: aqua;
-                width: 15px;
-                height: 15px;
-                
+                background-color: transparent;
+                padding: 35px;
+                display: flex;
+                margin-top: 33px;
+                opacity: 0.25;
+                border: 1px solid #FFFFFF;
                 
             }
             .swiper-pagination-bullet-active{
-                //background-color: $color3 !important;
-                
+                background-color: $color3;
+                color: $color1;
                 opacity: 1;
-                
+            }
+            
+            .destination-image{
+                position: absolute;
+                margin-left: 1400px;
+                margin-top: 125px;
             }
         }
+    
+
     }
 }

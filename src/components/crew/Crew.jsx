@@ -59,7 +59,7 @@ export default function Crew() {
                     
                         </div>
                         <img src="assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth" className="crew-mark"/>
-                        </SwiperSlide>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <div className="crew-text">
                         <h4>PILOT</h4>
@@ -88,7 +88,7 @@ export default function Crew() {
                     
                         </div>
                         <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh Ansari" className="crew-anousheh"/>
-                        </SwiperSlide>
+                    </SwiperSlide>
                 </Swiper>
                 
                

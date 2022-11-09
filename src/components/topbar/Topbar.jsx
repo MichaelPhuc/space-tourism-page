@@ -9,7 +9,7 @@ export default function Topbar() {
             <img src="assets/shared/logo.svg" alt="Space Logo" className="logo"/>
             
             <div className="nav-rectangle"> 
-                <div className="testing">
+                <div className="nav-padding">
                     <NavLink to="/" className="nav-text" activeClassName="active"><span>00</span> HOME</NavLink>
                     <NavLink to="/destination" className="nav-text" activeClassName="active"><span>01</span> DESTINATION</NavLink>
                     <NavLink to="/crew" className="nav-text" activeClassName="active"><span>02</span> CREW</NavLink>
