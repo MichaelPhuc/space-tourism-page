@@ -6,9 +6,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 969px;
+    height: 100vh;
     color: $color3;
     overflow: hidden;
+    
+
+    @include mobile{
+        background-image: url("../../../public/assets/technology/background-technology-mobile.jpg");  
+    }
+    @include tablet{
+        background-image: url("../../../public/assets/technology/background-technology-tablet.jpg");  
+    }
 
     .left{
         flex: 0.5;
@@ -19,12 +27,31 @@
                 font-weight: 400;
                 font-size: $h5-size;
                 letter-spacing: $h5-spacing;
+
+                @include mobile{
+                    font-size: 16px;
+                    letter-spacing: 2.7px;
+                }
+                @include tablet{
+                    font-size: 20px;
+                }
             }
         h5{
             
             margin-top: 212px;
             margin-bottom: -80px;
             margin-left: 175px;
+
+            @include mobile{
+                margin: 0px;
+                text-align: center;
+                margin-top: 110px;
+                width: 100%;
+            }
+            @include tablet{
+                margin-left: 38px;
+                margin-top: 135px;
+            }
             
         }
         span{
@@ -35,17 +62,37 @@
        
         .Swiper{
             height: 80vh;
-            
-            .destination-text{
-                margin-left: 325px;
-                margin-top: 225px;
+
+            @include mobile{
+                
+                
+            }
+            .technology-text{
+                margin-left: 15vw;
+                margin-top: 22vh;
+
+                @include mobile{
+                    margin-left: 0px;
+                    margin-top: 280px;
+                    text-align: center;
+                }
+                @include tablet{
+                    margin-left: 0px;
+                    margin-top: 55vh;
+                    text-align: center;
+                }
                 
                 .terminology{
                     font-size: $nav-size;
                     letter-spacing: $nav-spacing;
                     font-family: 'Barlow Condensed';
                     font-weight: 400;
-                    color: $color2;      
+                    color: $color2; 
+                         
+                    @include mobile{
+                        font-size: $sh2-size; 
+                        letter-spacing: $sh2-spacing;
+                    }
                     
                 }
                 h3{
@@ -53,16 +100,40 @@
                     font-family: 'Bellefair', serif;
                     font-weight: 200;
                     margin-top: 0px;
+
+                    @include mobile{
+                        font-size: 24px;  
+                        line-height: 18px;
+                    }
+                    @include tablet{
+                        font-size: 40px;  
+                    }
                     
                 }
                 .body-text{
                     font-family: 'Barlow', sans-serif;
                     font-size: $body-size;
                     font-weight: 200;
+                    inline-size: 443px; 
                     line-height: 32px;
                     color: $color2;
-                    inline-size: 443px; 
                     margin-top: -29px;
+
+                    @include mobile{
+                        font-size: 15px;
+                        inline-size: 325px; 
+                        line-height: 25px;                
+                        margin-left: 30px;
+                        margin-top: 0px;
+                        text-align: center;
+                        position: absolute;
+                    }
+                    @include tablet{
+                        font-size: 15px;
+                        inline-size: 420px; 
+                        line-height: 25px; 
+                        margin-left: 18vh;
+                    }
                 }
            }
             //Number inside pagination bullet
@@ -71,11 +142,32 @@
                 font-family: 'Bellefair', serif;
                 font-weight: 700;
                 color: $color2;
+               
+                @include mobile{
+                    font-size: 16px;
+                }
+                @include tablet{
+                    font-size: 24px;
+                }
             }
       
             .swiper-pagination {
                margin-bottom: 230px;
                margin-left: 125px;
+               
+               @include mobile{
+                    margin-left: 0px;
+                    margin-bottom: 0px;
+                    margin-top: 170px;
+                    top: 0px;
+                }
+                @include tablet{
+                    margin-left: 0px;
+                    margin-bottom: 0px;
+                    margin-top: 40vh;
+                    top: 0px;
+                }
+           
             }
             
             .swiper-pagination-bullet{
@@ -85,23 +177,68 @@
                 margin-top: 33px;
                 opacity: 0.25;
                 border: 1px solid #FFFFFF;
+
+                @include mobile{
+                    padding: 15px;
+                    display: inline-block;
+                    
+                }
+                @include tablet{
+                    display: inline-block;
+                    padding: 30px;
+                }
             }
-            
+
             .swiper-pagination-bullet-active{
                 background-color: $color3;
                 color: $color1;
                 opacity: 1;
             }
             
-            .destination-image{
+            .technology-image{
                 position: absolute;
-                margin-left: 1200px;
-                margin-top: 125px;
+                margin-left: 65vw;
+                margin-top: 15vh;
+                width: 515px;
+                height: auto;
                 border-radius: 10px;
                 border: solid 1px $color3;
                 box-shadow: 3px 3px 10px white;
+
+                @include mobile{
+                    display: none;
+                    
+                }
+                @include tablet{
+                    display: none;
+                    
+                }
             }
 
+            .technology-image-landscape{
+                display: none;
+
+                @include mobile{
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-top: solid 1px $color3;
+                    border-bottom: solid 1px $color3;
+                    //height: 20vh;
+                }
+                @include tablet{
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 310px;
+                    margin-top: 100px;
+                    border-top: solid 1px $color3;
+                    border-bottom: solid 1px $color3;
+                    //height: 20vh;
+                }
+            }
         }
     
 

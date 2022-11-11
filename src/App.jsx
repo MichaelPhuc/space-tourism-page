@@ -3,16 +3,19 @@ import Topbar from "./components/topbar/Topbar";
 import Destination from "./components/destination/Destination";
 import Crew from "./components/crew/Crew"
 import Technology from "./components/technology/Technology";
+import Menu from "./components/menu/Menu";
 
 import { Routes, Route } from 'react-router-dom';
-
+import { useState } from "react";
 import "./app.scss"
 
 function App() {
-  
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return ( 
     <div>
-    <Topbar/>
+    <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+    <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />

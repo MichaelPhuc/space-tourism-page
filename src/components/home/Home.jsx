@@ -7,6 +7,7 @@ export default function Home() {
     
     <div className="home">
         <div className="left">
+           
             <NavLink to="/destination" ><button className="explore">EXPLORE</button></NavLink>
             <div className="home-text">
                 <h5 className="h5-text">SO, YOU WANT TO TRAVEL TO</h5>

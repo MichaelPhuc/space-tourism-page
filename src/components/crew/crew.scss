@@ -5,10 +5,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 969px;
+    height: 100vh;
     color: $color3;
     overflow: hidden;
-    
+
+    @include mobile{
+        background-image: url("../../../public/assets/crew/background-crew-mobile.jpg");  
+        height: 100vh;
+    }
+
+    @include tablet{
+        background-image: url("../../../public/assets/crew/background-crew-tablet.jpg");  
+        height: 100vh;
+    }
     .left{
         flex: 0.5;
        
@@ -17,12 +26,33 @@
                 font-weight: 400;
                 font-size: $h5-size;
                 letter-spacing: $h5-spacing;
+
+                @include mobile{
+                    font-size: 16px;
+                    letter-spacing: 2.7px;
+                }
+
+                @include tablet{
+                    font-size: 20px;
+                }
             }
         h5{
             
             margin-top: 212px;
             margin-bottom: -80px;
             margin-left: 175px;
+
+            @include mobile{
+                margin: 0px;
+                margin-top: 110px;
+                text-align: center;
+                width: 100%;
+            }
+
+            @include tablet{
+                margin-left: 38px;
+                margin-top: 135px;
+            }
             
         }
         span{
@@ -34,17 +64,39 @@
 
         .mySwiper{
             width: 300vh;
-            
+
+            @include mobile{
+                height: 82vh;
+                
+            }
             .swiper-custom-pagination {
                 position: absolute;
                 margin-left: 165px;
                 margin-bottom: 150px;
+
+                @include mobile{
+                    margin-left: 120px;
+                    margin-bottom: 0px;
+                    margin-top: 270px;
+                    top: 0px;
+                }
+                @include tablet{
+                    margin-left: 31vh;
+                    margin-bottom: 0px;
+                    margin-top: 370px;
+                    top: 0px;
+                }
             }
             .swiper-pagination-bullet{
                 background-color: $color3;
                 width: 15px;
                 height: 15px;
-                margin-left: 15px;   
+                margin-left: 15px;  
+
+                @include tablet{
+                    width: 10px;
+                    height: 10px;
+                }
             }
             .swiper-pagination-bullet-active{
                 background-color: $color3;
@@ -55,19 +107,44 @@
                 position: absolute;
                 margin-left: 165px;
                 margin-top: 160px;
-                
+
+                @include mobile{
+                    margin-left: 30px;
+                    margin-top: 280px;
+                    text-align: center;
+                }
+                @include tablet{
+                    text-align: center;
+                    margin-top: 100px;
+                    margin-left: 16vh;
+                }
                 h4{
                     font-size: $h4-size;
                     font-family: 'Bellefair', serif;
                     font-weight: 200;
                     opacity: 0.5;
-                    
+
+                    @include mobile{
+                        font-size: 16px;
+                    }
+                    @include tablet{
+                        font-size: 24px;  
+                    }
                 }
                 h3{
                     font-size: $h3-size;
                     font-family: 'Bellefair', serif;
                     font-weight: 200;
                     margin-top: -28px;
+
+                    @include mobile{
+                        font-size: 24px;  
+                        margin-top: 0px;
+                        line-height: 18px;
+                    }
+                    @include tablet{
+                        font-size: 40px;  
+                    }
                     
                 }
                 .body-text{
@@ -78,28 +155,55 @@
                     color: $color2;
                     inline-size: 443px; 
                     margin-top: -29px;
+
+                    @include mobile{
+                        font-size: 15px;
+                        line-height: 25px;
+                        margin-top: 0px;
+                        inline-size: 327px;
+                    }
+                    @include tablet{
+                        font-size: $nav-size;
+                        line-height: 28px;
+                    }
                 }
            }
             .crew-douglas,.crew-mark,.crew-victor,.crew-anousheh{
+                margin-left: 50vw;
+                margin-top: 16vh;  
+                height: 650px;
 
+                @include mobile{
+                    margin-left: 25vw;
+                    margin-top: 20px;
+                    height: 223px;
+                }
+
+                @include tablet{
+                    margin-left: 22vw;
+                    margin-top: 41vh;
+                    height: 530px;
+                }
             }
             .crew-douglas{
-                margin-left: 1050px;
-                margin-top: 105px;   
+                @include mobile {
+                    margin-left: 30vw;
+                }
+                @include tablet{
+                    margin-left: 30vw;
+                }
             }
             .crew-mark{
-                margin-left: 1100px;
-                margin-top: 164px;
-                
+                @include mobile{
+                    margin-left: 28vw;
+                }
+                @include tablet{
+                    margin-left: 25vw;
+                }
+
             }
-            .crew-victor{
-                margin-left: 1025px;
-                margin-top: 160px;   
-            }
-            .crew-anousheh{ 
-                margin-left: 1050px;
-                margin-top: 200px;     
-            }
+            
+            
         }
        
     }

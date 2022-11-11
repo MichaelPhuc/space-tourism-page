@@ -21,11 +21,11 @@ export default function Destination() {
                         </p>
                         <hr className="destination-line"></hr>
                         <div className="distance">
-                            <span className="sh2">AVG. DISTANCE</span>
+                            <p className="sh2">AVG. DISTANCE</p>
                             <p className="h4">384,400 KM</p>
                         </div>
                         <div className="time">
-                            <span className="sh2">EST. TRAVEL TIME</span>
+                            <p className="sh2">EST. TRAVEL TIME</p>
                             <p className="h4">3 DAYS</p>
                         </div>                     
                     </div>
@@ -39,11 +39,11 @@ export default function Destination() {
                         </p>
                         <hr className="destination-line"></hr>
                         <div className="distance">
-                            <span className="sh2">AVG. DISTANCE</span>
+                            <p className="sh2">AVG. DISTANCE</p>
                             <p className="h4">225 MIL. KM</p>
                         </div>
                         <div className="time">
-                            <span className="sh2">EST. TRAVEL TIME</span>
+                            <p className="sh2">EST. TRAVEL TIME</p>
                             <p className="h4">9 MONTHS</p>
                         </div>    
                     </div>
@@ -58,11 +58,11 @@ export default function Destination() {
                         </p>   
                         <hr className="destination-line"></hr>
                         <div className="distance">
-                            <span className="sh2">AVG. DISTANCE</span>
+                            <p className="sh2">AVG. DISTANCE</p>
                             <p className="h4">628 MIL. KM</p>
                         </div>
                         <div className="time">
-                            <span className="sh2">EST. TRAVEL TIME</span>
+                            <p className="sh2">EST. TRAVEL TIME</p>
                             <p className="h4">3 YEARS</p>
                         </div>            
                     </div>
@@ -78,11 +78,11 @@ export default function Destination() {
                         </p>
                         <hr className="destination-line"></hr>
                         <div className="distance">
-                            <span className="sh2">AVG. DISTANCE</span>
+                            <p className="sh2">AVG. DISTANCE</p>
                             <p className="h4">225 BIL. KM</p>
                         </div>
                         <div className="time">
-                            <span className="sh2">EST. TRAVEL TIME</span>
+                            <p className="sh2">EST. TRAVEL TIME</p>
                             <p className="h4">7 YEARS</p>
                         </div>    
                     </div>

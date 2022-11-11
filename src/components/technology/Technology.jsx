@@ -30,8 +30,9 @@ export default function Technology() {
                     className="Swiper"
                 >
                     <SwiperSlide>
-                        <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="Launch Vehicle" className="destination-image"/>
-                        <div className="destination-text">
+                        <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="Launch Vehicle" className="technology-image"/>
+                        <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="Launch Vehicle Landscape" className="technology-image-landscape"/>
+                        <div className="technology-text">
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>LAUNCH VEHICLE</h3>
                             <p className="body-text">
@@ -43,8 +44,9 @@ export default function Technology() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="assets/technology/image-space-capsule-portrait.jpg" alt="Space Capsule" className="destination-image"/>
-                        <div className="destination-text">
+                        <img src="assets/technology/image-spaceport-portrait.jpg" alt="Spaceport" className="technology-image"/>
+                        <img src="assets/technology/image-spaceport-landscape.jpg" alt="Spaceport Landscape" className="technology-image-landscape"/>
+                        <div className="technology-text">
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>SPACEPORT</h3>
                             <p className="body-text">
@@ -56,8 +58,9 @@ export default function Technology() {
                         </div>    
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="assets/technology/image-spaceport-portrait.jpg" alt="Spaceport" className="destination-image"/>
-                        <div className="destination-text">
+                        <img src="assets/technology/image-space-capsule-portrait.jpg" alt="Space Capsule" className="technology-image"/>
+                        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="Space Capsule Landscape" className="technology-image-landscape"/>
+                        <div className="technology-text">
                             <p className="terminology">THE TERMINOLOGY...</p>
                             <h3>SPACE CAPSULE</h3>
                             <p className="body-text">
