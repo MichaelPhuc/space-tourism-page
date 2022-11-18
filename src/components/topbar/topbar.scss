@@ -35,9 +35,8 @@
         }
 
         @include tablet{
-            //width: 450px;
             top: 0px;
-            width: 44vh;
+            width: 50vw;
         }
 
         .nav-padding{
@@ -56,7 +55,7 @@
 
                 @include tablet{
                     font-size: $sh2-size;
-                    margin-left: 3.5vh;
+                    margin-left: 3.5vw;
                 }
 
                 span{

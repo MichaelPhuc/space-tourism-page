@@ -50,8 +50,6 @@
                 position: absolute;
                 height: 242px;
                 width: 242px;
-                //margin-top: 70vh;
-                //margin-left: 25vh;
                 left: 50%;
                 margin-left: -110px;
                 top: 75%;
@@ -69,14 +67,12 @@
             margin-bottom: 131px;
 
             @include mobile{
-                
                 margin: 0px;
                 text-align: center;
                 margin-top: 110px;
             }
 
             @include tablet{
-                //margin-left: 15vh;
                 margin-top: 20vh;
                 margin-left: 0px;
                 text-align: center;
@@ -95,11 +91,6 @@
                 @include tablet{
                     font-size: 20px;
                     letter-spacing: 3.375px;
-                    //margin-right: 17vh;
-                    
-                    //text-align: center;
-                    //width: 70%;
-                    
                 }
             }
         
