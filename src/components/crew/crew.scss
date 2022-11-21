@@ -61,11 +61,10 @@
 
 
         .mySwiper{
-            width: 300vw;
+        
 
             @include mobile{
                 height: 82vh;
-                
             }
             .swiper-custom-pagination {
                 position: absolute;
@@ -73,16 +72,23 @@
                 margin-bottom: 150px;
 
                 @include mobile{
-                    margin-left: 30vw;
-                    margin-bottom: 0px;
+                    margin-left: auto; 
+                    margin-right: auto; 
                     margin-top: 270px;
+                    left: 0; 
+                    right: 0; 
                     top: 0px;
+                    text-align: center;
                 }
                 @include tablet{
-                    margin-left: 42vw;
+                    margin-left: auto; 
+                    margin-right: auto; 
+                    left: 0; 
+                    right: 0; 
                     margin-bottom: 0px;
                     margin-top: 370px;
                     top: 0px;
+                    text-align: center;
                 }
             }
             .swiper-pagination-bullet{
@@ -109,12 +115,18 @@
                 @include mobile{
                     text-align: center;
                     margin-top: 280px;
-                    margin-left: 6vw;
+                    margin-left: auto; 
+                    margin-right: auto; 
+                    left: 0; 
+                    right: 0; 
                 }
                 @include tablet{
                     text-align: center;
                     margin-top: 100px;
-                    margin-left: 22vw;
+                    margin-left: auto; 
+                    margin-right: auto; 
+                    left: 0; 
+                    right: 0; 
                 }
                 h4{
                     font-size: $h4-size;
@@ -157,22 +169,35 @@
                     @include mobile{
                         font-size: 15px;
                         line-height: 25px;
-                        margin-top: 0px;
                         inline-size: 327px;
+                        margin-top: 0px;
+                        margin-left: auto; 
+                        margin-right: auto; 
+                        left: 0; 
+                        right: 0; 
                     }
                     @include tablet{
                         font-size: $nav-size;
                         line-height: 28px;
+                        margin-left: auto; 
+                        margin-right: auto; 
+                        left: 0; 
+                        right: 0; 
                     }
                 }
            }
-            .crew-douglas,.crew-mark,.crew-victor,.crew-anousheh{
+            .crew-pic{
                 margin-left: 55vw;
                 margin-top: 16vh;  
                 height: 650px;
 
                 @include mobile{
-                    margin-left: 25vw;
+                    position: absolute;
+                    text-align: center;
+                    margin-left: auto; 
+                    margin-right: auto; 
+                    left: 0; 
+                    right: 0; 
                     margin-top: 20px;
                     height: 223px;
                 }
@@ -182,23 +207,6 @@
                     margin-top: 41vh;
                     height: 530px;
                 }
-            }
-            .crew-douglas{
-                @include mobile {
-                    margin-left: 30vw;
-                }
-                @include tablet{
-                    margin-left: 30vw;
-                }
-            }
-            .crew-mark{
-                @include mobile{
-                    margin-left: 28vw;
-                }
-                @include tablet{
-                    margin-left: 25vw;
-                }
-
             }
             
             

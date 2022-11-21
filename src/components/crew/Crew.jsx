@@ -38,7 +38,7 @@ export default function Crew() {
                             commander of Crew Dragon Demo-2.
                         </p>
                         </div>
-                        <img src="assets/crew/image-douglas-hurley.png" alt="Douglas Hurley" className="crew-douglas"/>
+                        <img src="assets/crew/image-douglas-hurley.png" alt="Douglas Hurley" className="crew-pic"/>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="crew-text">
@@ -50,7 +50,7 @@ export default function Crew() {
                             African to travel to space as a space tourist.
                         </p>
                         </div>
-                        <img src="assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth" className="crew-mark"/>
+                        <img src="assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth" className="crew-pic"/>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="crew-text">
@@ -63,7 +63,7 @@ export default function Crew() {
                             station systems flight engineer. 
                         </p>
                         </div>
-                        <img src="assets/crew/image-victor-glover.png" alt="Victor Glover" className="crew-victor"/>
+                        <img src="assets/crew/image-victor-glover.png" alt="Victor Glover" className="crew-pic"/>
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="crew-text">
@@ -75,7 +75,7 @@ export default function Crew() {
                             fly to the ISS, and the first Iranian in space. 
                         </p>
                         </div>
-                        <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh Ansari" className="crew-anousheh"/>
+                        <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh Ansari" className="crew-pic"/>
                     </SwiperSlide>
                 </Swiper> 
             </div>
