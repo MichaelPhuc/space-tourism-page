@@ -11,7 +11,7 @@ export default function Crew() {
     return (
         <div className="crew"> 
             <div className="left">
-                <h5><span>02</span> MEET YOUR CREW</h5>
+                <h5><small>02</small> MEET YOUR CREW</h5>
                 <Swiper  
                 autoplay={{
                     delay: 8000,

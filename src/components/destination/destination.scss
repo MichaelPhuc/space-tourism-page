@@ -22,71 +22,35 @@
     .left{
         flex: 0.5;
         overflow: hidden;
-
-        h5,span{
-                font-family: 'Barlow Condensed', sans-serif;
-                font-weight: 400;
-                font-size: $h5-size;
-                letter-spacing: $h5-spacing;
-
-                @include mobile{
-                    font-size: 16px;
-                    letter-spacing: 2.7px;
-                }
-
-                @include tablet{
-                    font-size: 20px;
-                }
-            }
-            
+        
         h5{
             position: absolute;
             margin-top: 212px;
             margin-left: 175px;
-
+        }
+        h5,small{
             @include mobile{
+                text-align: center;
                 margin-left: 0px;
                 margin-top: 110px;
                 width: 100%;
-                text-align: center;
             }
             @include tablet{
                 margin-left: 38px;
                 margin-top: 135px;
-                
             }
         }
-        span{
-            font-weight: 700;
-            mix-blend-mode: normal;
-            opacity: 0.25;
-        }
+        
     }
 
     .right{
         flex: 0.5;
-        
         text-align: center;
+        
         @include mobile{
             position: absolute;
         }
 
-        h2{
-           
-            font-family: 'Bellefair', serif;
-            font-size: $h2-size;
-            font-weight: 400;
-            
-            @include mobile{
-                font-size: 56px;
-                text-align: center; 
-            }
-            @include tablet{
-                font-size: 80px;
-                text-align: center;
-            }
-        }
-        
         .destination-pic{
             position: absolute;
             left: 0px;
@@ -115,7 +79,6 @@
             }
         }
 
-
         .body-text{
             font-family: 'Barlow', sans-serif;
             font-size: $body-size;
@@ -124,7 +87,8 @@
             margin-top: -65px;
             color: $color2;
             inline-size: 443px; 
-
+            text-align: left;
+            
             @include mobile{
                 font-size: 15px;
                 line-height: 25px;                
@@ -170,9 +134,7 @@
                 margin-left: 30vw;
             }
         }
-        .h4{
-            font-size: $h4-size;
-            font-family: 'Bellefair', serif;
+        h4{
             position: absolute;
 
             @include mobile{

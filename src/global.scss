@@ -18,13 +18,14 @@ $color1: #0B0D17;
 $color2: #D0D6F9;
 $color3: #FFFFFF;
 
+// Media Queries
 $tablet-width: 1023px;
 
 @mixin tablet {
     @media (max-width: #{$tablet-width}) and (min-width: #{$width}){
         @content
     }
-}
+};
 
 $width: 767px;
 
@@ -32,5 +33,84 @@ $width: 767px;
     @media (max-width: #{$width}){
         @content
     }
+};
+
+// Headings
+
+h1{
+    font-size: $h1-size;font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+
+    @include mobile{
+        font-size: 80px;
+    }
 }
 
+h2{     
+    font-family: 'Bellefair', serif;
+    font-size: $h2-size;
+    font-weight: 400;
+    text-align: left;
+
+    @include mobile{
+        font-size: 56px;
+        text-align: center; 
+    }
+    @include tablet{
+        font-size: 80px;
+        text-align: center;
+    }
+}
+
+h3{
+    font-size: $h3-size;
+    font-family: 'Bellefair', serif;
+    font-weight: 200;
+
+    @include mobile{
+        font-size: 24px;  
+        line-height: 18px;
+    }
+    @include tablet{
+        font-size: 40px;  
+    }
+}
+
+h4{
+    font-size: $h4-size;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+}
+
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: $h5-size;
+    letter-spacing: $h5-spacing;
+
+    @include mobile{
+        font-size: $nav-size;
+        letter-spacing: $nav-spacing;
+    }
+    @include tablet{
+        font-size: 20px;
+    }
+}
+
+// Number beside h5 in destination, crew, and technology page
+small{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: $h5-size;
+    letter-spacing: $h5-spacing;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+
+    @include mobile{
+        font-size: $nav-size;
+        letter-spacing: $nav-spacing;
+    }
+    @include tablet{
+        font-size: 20px;
+    }
+}

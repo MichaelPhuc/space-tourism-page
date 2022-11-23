@@ -7,7 +7,7 @@ export default function Destination() {
     return (
         <div className="destination">
             <div className="left">
-                <h5><span>01</span> PICK YOUR DESTINATION</h5>
+                <h5><small>01</small> PICK YOUR DESTINATION</h5>
             </div>
             <div className="right"> 
                 <Tabs>
@@ -22,11 +22,11 @@ export default function Destination() {
                         <hr className="destination-line"></hr>
                         <div className="distance">
                             <p className="sh2">AVG. DISTANCE</p>
-                            <p className="h4">384,400 KM</p>
+                            <h4>384,400 KM</h4>
                         </div>
                         <div className="time">
                             <p className="sh2">EST. TRAVEL TIME</p>
-                            <p className="h4">3 DAYS</p>
+                            <h4>3 DAYS</h4>
                         </div>                     
                     </div>
                     <div label="MARS">
@@ -40,11 +40,11 @@ export default function Destination() {
                         <hr className="destination-line"></hr>
                         <div className="distance">
                             <p className="sh2">AVG. DISTANCE</p>
-                            <p className="h4">225 MIL. KM</p>
+                            <h4>225 MIL. KM</h4>
                         </div>
                         <div className="time">
                             <p className="sh2">EST. TRAVEL TIME</p>
-                            <p className="h4">9 MONTHS</p>
+                            <h4>9 MONTHS</h4>
                         </div>    
                     </div>
                     <div label="EUROPA">
@@ -59,11 +59,11 @@ export default function Destination() {
                         <hr className="destination-line"></hr>
                         <div className="distance">
                             <p className="sh2">AVG. DISTANCE</p>
-                            <p className="h4">628 MIL. KM</p>
+                            <h4>628 MIL. KM</h4>
                         </div>
                         <div className="time">
                             <p className="sh2">EST. TRAVEL TIME</p>
-                            <p className="h4">3 YEARS</p>
+                            <h4>3 YEARS</h4>
                         </div>            
                     </div>
                     <div label="TITAN">
@@ -79,11 +79,11 @@ export default function Destination() {
                         <hr className="destination-line"></hr>
                         <div className="distance">
                             <p className="sh2">AVG. DISTANCE</p>
-                            <p className="h4">225 BIL. KM</p>
+                            <h4>225 BIL. KM</h4>
                         </div>
                         <div className="time">
                             <p className="sh2">EST. TRAVEL TIME</p>
-                            <p className="h4">7 YEARS</p>
+                            <h4>7 YEARS</h4>
                         </div>    
                     </div>
                 </Tabs>      

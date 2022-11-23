@@ -19,7 +19,7 @@ export default function Technology() {
     return (
         <div className="technology">
             <div className="left">
-                <h5><span>03</span> SPACE LAUNCH 101</h5>
+                <h5><small>03</small> SPACE LAUNCH 101</h5>
                 <Swiper
                     effect={"fade"}
                     fadeEffect={{
